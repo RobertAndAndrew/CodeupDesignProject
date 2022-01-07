@@ -3,3 +3,9 @@
     font-family: ‘Anton’, sans-serif;
 }
 
+.rounded-circle {
+    border: solid 2px black;
+    padding: 10em;
+    list-style: none;
+}
+
