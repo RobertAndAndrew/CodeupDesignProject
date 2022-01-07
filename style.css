@@ -1,7 +1,18 @@
 * {
     font-family: ‘Abel’, sans-serif;
+    background: #f0f0f0;
+}
+.h1, .h2, .h3{
     font-family: ‘Anton’, sans-serif;
-    background: blue;
+}
+.h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.h3{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .rounded-circle {
@@ -11,14 +22,21 @@
 }
 
 .container-fluid {
+
     float: right;
 }
 
 #stripe {
     position: absolute;
-    height: 80px;
-    background: white;
-    z-index: 1000;
+    height: 50px;
+    /*z-index: 1000;*/
+    background: #ffffff;
     top: 50px;
     width: 100%;
+}
+.logo1 {
+    position: relative;
+    left: 38%;
+    bottom: 25px;
+    background:none
 }
