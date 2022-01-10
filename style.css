@@ -34,11 +34,19 @@ nav .nav-item {
 }
 
 .h3{
-margin-left: 40px;
+/*margin-left: 40px;*/
 }
-.first-circle {
-margin-left: 90px;
+
+.img-thumbnail{
+    background-color: #e6e6e6;
 }
+hr{
+    width: 80%;
+}
+
+/*.first-circle {*/
+/*margin-left: 90px;*/
+/*}*/
 
 @media screen and (min-width: 992px) {
     .brand-name  {
