@@ -34,19 +34,20 @@ nav .nav-item {
 }
 
 .h3{
-/*margin-left: 40px;*/
+
 }
 
 .img-thumbnail{
     background-color: #e6e6e6;
 }
 hr{
-    width: 80%;
+    width: 70%;
 }
 
-/*.first-circle {*/
-/*margin-left: 90px;*/
-/*}*/
+.btn {
+    border: white solid 7px;
+    border-radius: 70%;
+}
 
 @media screen and (min-width: 992px) {
     .brand-name  {
