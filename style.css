@@ -33,9 +33,6 @@ nav .nav-item {
     bottom: 6px;
 }
 
-.h3{
-
-}
 
 .img-thumbnail{
     background-color: #e6e6e6;
@@ -47,6 +44,10 @@ hr{
 .btn {
     border: white solid 7px;
     border-radius: 70%;
+}
+
+.badge {
+    color: #f0f0f0;
 }
 
 @media screen and (min-width: 992px) {
