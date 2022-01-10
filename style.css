@@ -1,42 +1,102 @@
-* {
-    font-family: ‘Abel’, sans-serif;
+
+body {
+    font-family: 'Abel', sans-serif;
     background: #f0f0f0;
+    font-size: 1.2em;
 }
-.h1, .h2, .h3{
-    font-family: ‘Anton’, sans-serif;
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
-.h1{
-    font-size: 48px;
-    font-weight: bold;
+
+.brand-name {font-size: 1.75em;}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 50px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
 }
 
 .h3{
-    font-size: 30px;
-    font-weight: bold;
+margin-left: 40px;
+}
+.first-circle {
+margin-left: 90px;
 }
 
-.rounded-circle {
-    border: solid 2px black;
-    padding: 10em;
-    list-style: none;
+@media screen and (min-width: 992px) {
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
 }
 
-.container-fluid {
+/*#stripe {*/
+/*    position: absolute;*/
+/*    height: 50px;*/
+/*    !*z-index: 1000;*!*/
+/*    background: #ffffff;*/
+/*    top: 80px;*/
+/*    width: 100%;*/
+/*}*/
 
-    float: right;
-}
 
-#stripe {
-    position: absolute;
-    height: 50px;
-    /*z-index: 1000;*/
-    background: #ffffff;
-    top: 50px;
-    width: 100%;
-}
-.logo1 {
-    position: relative;
-    left: 38%;
-    bottom: 25px;
-    background:none
-}
+/** {*/
+/*    font-family: ‘Abel’, sans-serif;*/
+/*    background: #f0f0f0;*/
+/*}*/
+/*.h1, .h2, .h3{*/
+/*    font-family: ‘Anton’, sans-serif;*/
+/*}*/
+/*.h1{*/
+/*    font-size: 48px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.h3{*/
+/*    font-size: 30px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.rounded-circle {*/
+/*    border: solid 2px black;*/
+/*    padding: 10em;*/
+/*    list-style: none;*/
+/*}*/
+
+/*.container-fluid {*/
+
+/*    float: right;*/
+/*}*/
+
+/*#stripe {*/
+/*    position: absolute;*/
+/*    height: 50px;*/
+/*    !*z-index: 1000;*!*/
+/*    background: #ffffff;*/
+/*    top: 50px;*/
+/*    width: 100%;*/
+/*}*/
+/*.logo1 {*/
+/*    position: relative;*/
+/*    left: 38%;*/
+/*    bottom: 25px;*/
+/*    background:none*/
+/*}*/
+
